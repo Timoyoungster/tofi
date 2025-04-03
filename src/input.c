@@ -163,6 +163,8 @@ static uint32_t keysym_to_key(xkb_keysym_t sym)
 			return KEY_KPENTER;
 		case XKB_KEY_m:
 			return KEY_M;
+		case XKB_KEY_y:
+			return KEY_Y;
 	}
 	return (uint32_t)-1;
 }
