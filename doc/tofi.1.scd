@@ -61,7 +61,7 @@ All config file options described in *tofi*(5) are also accepted, in the form
 <Ctrl>-w | <Ctrl>-<Backspace>
 	Delete word.
 
-<Enter> | <Ctrl>-m
+<Enter> | <Ctrl>-m | <Ctrl>-y
 	Confirm the current selection and quit.
 
 <Escape> | <Ctrl>-c | <Ctrl>-g | <Ctrl>-[
