@@ -97,7 +97,8 @@ void input_handle_keypress(struct tofi *tofi, xkb_keycode_t keycode)
 		return;
 	} else if (key == KEY_ENTER
 			|| key == KEY_KPENTER
-			|| (key == KEY_M && ctrl)) {
+			|| (key == KEY_M && ctrl)
+			|| (key == KEY_Y && ctrl)) {
 		tofi->submit = true;
 		return;
 	}
