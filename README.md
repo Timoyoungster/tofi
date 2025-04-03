@@ -80,7 +80,8 @@ executables under the user's `$PATH`.
 list of applications found in desktop files as described by the [Desktop Entry
 Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html).
 
-To use as a launcher for Sway, add something similar to the following to your
+To use as a launcher, tofi's output needs to be fed into another program (e.g. window-manager's exec function).  
+For example in Sway add something similar to the following to your
 Sway config file:
 ```
 set $menu tofi-run | xargs swaymsg exec --
