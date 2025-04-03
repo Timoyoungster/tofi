@@ -70,7 +70,7 @@ the form **--key=value**.
 
 > Delete word.
 
-\<Enter\> \| \<Ctrl\>-m
+\<Enter\> \| \<Ctrl\>-m \| \<Ctrl\>-y
 
 > Confirm the current selection and quit.
 
